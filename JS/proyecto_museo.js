@@ -7,6 +7,9 @@ const termina = document.getElementById('termina');
 // Animaciones tarjetas.
 const actividades = document.getElementById('actividades');
 const tarjetas = document.getElementsByClassName('size');
+// Cambio de color al presionar.
+const textCambio = document.getElementsByClassName('cambioColor');
+const arrTextCambio = Array.prototype.slice.call(textCambio);
 
 nosotros.addEventListener('click', function () {
     const header = document.getElementById('header');
@@ -27,4 +30,10 @@ actividades.addEventListener('click', function() {
 		element.style.width = '50%';
 		element.style.height = '50%';
 	})
+});
+// Al presionar generar cambio de color en <p/>.
+arrTextCambio.forEach(function(element) {
+	element.addEventListener('click', function(e) {
+		e.target.style.color = 'red';
+	});
 });
