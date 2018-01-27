@@ -1,7 +1,7 @@
 /**Declarar variables */
-const nosotros = document.getElementsById('nosotros');
-console.log(nosotros);
+const nosotros = document.getElementById('nosotros');
+
 nosotros.addEventListener('click', function () {
-    const header = document.getElementsByTagName('header');
+    const header = document.getElementById('header');
     header.style.backgroundColor = "#AED581";
 });
