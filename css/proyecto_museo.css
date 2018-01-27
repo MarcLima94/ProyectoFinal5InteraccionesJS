@@ -59,6 +59,10 @@ nav {
     margin-right: -20px;
 }
 
+.cambioColor {
+    cursor: pointer;
+}
+
 #Logo_Museo {
     display: inline-flex;
     position: relative;
