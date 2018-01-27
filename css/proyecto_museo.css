@@ -37,7 +37,7 @@ nav {
     flex-direction: row;
 }*/
 
-#box {
+.box {
     color: #EEEEEE;
     background-color: #004D40;
     border: #004D40;
