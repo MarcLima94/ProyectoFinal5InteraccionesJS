@@ -21,7 +21,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #383826;
+    background-color: #26A69A;
     margin-right: -20px;
     margin-left: -35px;
     margin-top: -20px;
@@ -124,7 +124,7 @@ nav {
     padding: 5px 5px 5px 5px;
 }
 
-#Sonido_de_ambientacion {
+.Sonido_de_ambientacion {
     color: #EEEEEE;
     background-color: #004D40;
     border: #004D40;
