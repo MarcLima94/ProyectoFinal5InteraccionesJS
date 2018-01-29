@@ -42,5 +42,5 @@ arrTextCambio.forEach(function(element) {
 });
 // Aparece número de la empresa al dar clic en Unete a Nosotros
 function changeText(id) {
-    id.innerHTML = "Comunicate al: 55-24-56-78-90";
+    id.innerHTML = "Comunícate al: 24-56-78-90";
 }
