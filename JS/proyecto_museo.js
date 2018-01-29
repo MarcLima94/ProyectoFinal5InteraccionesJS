@@ -10,6 +10,9 @@ const tarjetas = document.getElementsByClassName('size');
 // Cambio de color al presionar.
 const textCambio = document.getElementsByClassName('cambioColor');
 const arrTextCambio = Array.prototype.slice.call(textCambio);
+// Aparece número de la empresa al dar clic en Unete a Nosotros
+const unete = document.getElementById('unete');
+const digital = document.getElementById('digital');
 
 nosotros.addEventListener('click', function () {
     const header = document.getElementById('header');
@@ -34,6 +37,10 @@ actividades.addEventListener('click', function() {
 // Al presionar generar cambio de color en <p/>.
 arrTextCambio.forEach(function(element) {
 	element.addEventListener('click', function(e) {
-		e.target.style.color = 'red';
-	});
+		e.target.style.color = '#01579B';
+    });
 });
+// Aparece número de la empresa al dar clic en Unete a Nosotros
+function changeText(id) {
+    id.innerHTML = "Comunicate al: 55-24-56-78-90";
+}
